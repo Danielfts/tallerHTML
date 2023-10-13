@@ -5,26 +5,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taller Daniel Triviño</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container-lg p-4 my-4 bg-dark text-white">
-        <h1> Gustos de Daniel</h1>
-        <p class="h6">Taller de HTML, CSS Y Bootstrap</p>
-        <p>Desarrollo de SW en equipos - 2023-2</p>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <header>
 
-    </div>
-    <div class="row">
-        <div class="col-sm-4 mx-3"><img class="img-fluid rounded" src="fotoMia.webp"
-                alt="Yo en las escaleras del lleras"></div>
-        <div class="col-sm-3">
-            
+        <div class="container-fluid p-4  bg-dark text-white">
+            <h1> Gustos de Daniel</h1>
+            <p class="h6">Taller de HTML, CSS Y Bootstrap</p>
+            <p>Desarrollo de SW en equipos - 2023-2</p>
+
+        </div>
+    </header>
+    <main>
+
+        <div class="container-fluid bg-light-subtle p-4">
+
+            <div class="row">
+                <!-- <div class="col-4 mx-1"><img class="img-fluid rounded" src="fotoMia.webp"
+                        alt="Yo en las escaleras del lleras"></div> -->
+                <div class="col-sm-4 mx-1">
+                    <div class="card shadow-sm " >
+                        <img src="assets/fotoMia.webp" class="card-img-top" alt="Yo en las escaleras del lleras">
+                      <div class="card-body">
+                        <p class="card-text">Mi nombre es Daniel Felipe, me gusta explorar Bogotá, escuchar todo tipo de música y caminar en calles con arquitectura impresionante. Claramente me apasiona todo lo que tiene que ver con Computer Science, tecnología, desarrollo y particularmente la Robótica. Esta es una pequeña muestra de lo que me gusta en esta vida, con un HTML. Pase!</p>
+
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-7 my-3 ">
+                    <div class="row-cols-1 mb-2">
+                        <div id="carouselExample" class="carousel slide mx-3 " data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="img-fluid object-fit-cover rounded ratio-16x9" src="/resources/images/places/Bacata.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid object-fit-cover rounded ratio-16x9" src="/resources/images/places/Caneca.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid object-fit-cover rounded ratio-16x9" src="/resources/images/places/CentroInternacional.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
+                                    aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h1>Me gusta Bogotá</h1>
+                        <p>Una de mis actividades favoritas es descubrir lugares nuevos. Caminar en la candelaria, en la 93, el virrey, en salitre, modelia, suba. Me gusta descubrir cafeterías locales y parques tranquilos para estar. Hacer picnics en el simon bolivar o salir a acampar en un roadtrip con amigos. Adoro la ciclovía de los domingos, salgo desde mi casa hasta la 7ma, la 116, la 170. ¡En la ciclovía nocturna de diciembre le di una vuelta a toda la ciudad!</p>
+                        <br>
+                        <a href="musica.html"><h2>Mis gustos musicales</h2></a>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
 
-
-    </div>
-
+    </main>
 </body>
 
 </html>
