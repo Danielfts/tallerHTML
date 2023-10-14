@@ -22,3 +22,31 @@
 .cursive_2{
     font-family: "CommercialScript BT", 'Cedarville Cursive', cursive;
 }
+
+#tabla-videojuegos{
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+#tabla-videojuegos td, #tabla-videojuegos th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#tabla-videojuegos tr:nth-child(even){background-color: #f2f2f2;}
+
+#tabla-videojuegos th[scope="col"]{
+    text-align: left;
+    background-color: lavender;
+}
+
+#tabla-videojuegos th[scope="row"]{
+    text-align: center;
+    background-color: rgba(176, 196, 222, 0.301);
+}
+
+#tabla-videojuegos tr:first-child th[scope ="row"]{
+    background-color:gold;
+}
+
+
+#tabla-videojuegos tr:hover {background-color: #ddd;}
