@@ -1,0 +1,24 @@
+.titulo_secundario{
+    color: lightslategray;
+    font-family: Cambria;
+}
+.elegante{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: darkslategray;
+}
+
+.parrafo_blog{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.google{
+    font-family: 'Roboto', sans-serif;
+}
+.cursiva_elegante{
+    font-family: 'Cedarville Cursive', cursive;
+}
+.cursive_2{
+    font-family: "CommercialScript BT", 'Cedarville Cursive', cursive;
+}
